@@ -44,7 +44,7 @@ pipeline {
       success {
         echo 'Pipeline completed successfully'
       }
-      failure{
+      failure {
         echo 'Pipeline failed- code blocked'
       }
   }
